@@ -1,8 +1,13 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Magic 8 Ball
+      Magic Pancake
     </ion-title>
+    <ion-buttons>
+      <ion-button routerLink="/about" routerDirection="forward">
+        About
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -10,11 +15,11 @@
   <ion-card (click)="giveAnswer()">
 
     <ion-card-header>
-      Ask a question
+      What would you like for breakfast?
     </ion-card-header>
     
     <ion-card-content>
-      <img src="assets/magic8ball.gif" alt="magic 8 ball">
+      <img src="assets/breakfast.gif" alt="magic 8 ball">
     </ion-card-content>
     
   </ion-card>
